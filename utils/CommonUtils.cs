@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace netcoreTest.utils
+namespace aus_backend_core.utils
 {
     public class CommonUtils
     {

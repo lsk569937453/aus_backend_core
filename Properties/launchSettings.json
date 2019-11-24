@@ -23,7 +23,7 @@
       },
       "applicationUrl": "https://localhost:5001;http://localhost:5000"
     },
-    "netcoreTest": {
+    "aus_backend_core": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

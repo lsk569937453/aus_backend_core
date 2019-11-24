@@ -9,11 +9,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using netcoreTest.service;
+using aus_backend_core.service;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
 
-namespace netcoreTest
+namespace aus_backend_core
 {
     public class Startup
     {
@@ -29,6 +29,7 @@ namespace netcoreTest
         {
             services.AddScoped<ISaveService, SaveService>();
             services.AddScoped<IFileService, FileService>();
+            services.AddScoped<ITestTemplateService,TestTemplateService>();
 
 
             services.AddMvc();

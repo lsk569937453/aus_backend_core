@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using netcoreTest.entity;
+using aus_backend_core.entity;
 
-namespace netcoreTest.constants
+namespace aus_backend_core.constants
 {
     public class StaticConstants
     {

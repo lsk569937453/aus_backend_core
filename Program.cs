@@ -14,7 +14,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace netcoreTest
+namespace aus_backend_core
 {
     [Controller]
     public class Program
